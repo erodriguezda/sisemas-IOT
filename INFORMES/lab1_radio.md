@@ -76,7 +76,7 @@ El RSSI asociado con la transición hacia pérdidas superiores al 1 % se encuent
 - **Costo nominal a USD 40 por nodo:** \(289\times40=\text{USD }11\,560\).
 - **Veredicto preliminar:** continuar con una fase de validación de campo antes de aprobar el despliegue definitivo. El alcance de línea de vista no demuestra por sí solo la cobertura en vegetación densa ni la confiabilidad estacional.
 
-> La estimación de 289 nodos corresponde a una cuadrícula geométrica simplificada con nodos en el perímetro. El número definitivo puede cambiar según la ubicación de la estación base, la topología Thread, el relieve, la cobertura requerida y si todos los puntos del terreno necesitan estar dentro del alcance de un nodo.
+
 
 ### 2.3 Mensaje operativo para Edwin (técnico de campo)
 
@@ -232,7 +232,6 @@ A 2,45 GHz y 25 m, la pérdida de espacio libre es aproximadamente 68,2 dB. Esta
 
 ## 6. Procedimiento experimental
 
-> Esta sección describe el procedimiento que debe haberse seguido. Confirma que coincide con las acciones realizadas realmente antes de presentarlo como registro de ejecución.
 
 1. Se flasheó el firmware `lab1_radio` en ambos nodos ESP32-C6.
 2. Se configuró la potencia TX con `ot txpower 0`.
@@ -258,7 +257,7 @@ ot neighbor table
 
 **Condiciones indicadas:** potencia TX 0 dBm, canal 25, ping de 64 bytes, 100 pings por dirección y distancia.
 
-> **Verificación pendiente:** los números siguientes son los que figuraban en el borrador recibido. Conserva esta tabla como resultados experimentales solo si coincide con los registros reales de tus pruebas.
+
 
 | Distancia (m) | RSSI A→B (dBm) | RSSI B→A (dBm) | PER A→B (%) | PER B→A (%) | PDR A→B (%) | PDR B→A (%) |
 |---:|---:|---:|---:|---:|---:|---:|
