@@ -4,9 +4,9 @@
 
 **Team Members:**
 
-* María de los Ángeles Prieto Ortega
+* Edwin Santiago Rodriguez Daza
 
-* Mariana Zuluaga Yepes
+* Jhonatan Yara Lopez
 
 ## 1. System Overview
 
